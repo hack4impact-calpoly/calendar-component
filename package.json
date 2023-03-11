@@ -1,0 +1,23 @@
+{
+  "name": "calendar-component",
+  "version": "1.0.0",
+  "description": "This is a React calendar component written in Typescript meant for use with Hack4Impact projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hack4impact-calpoly/calendar-component.git"
+  },
+  "keywords": [
+    "calendar",
+    "react"
+  ],
+  "author": "hack4impact cal poly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hack4impact-calpoly/calendar-component/issues"
+  },
+  "homepage": "https://github.com/hack4impact-calpoly/calendar-component#readme"
+}
