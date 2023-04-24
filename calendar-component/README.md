@@ -1,6 +1,7 @@
 Oleksandr Gorpynich
 Ryan Ficklin
 Sreshta Talluri
+Nicholas Tan
 
 # Getting Started with Create React App
 
