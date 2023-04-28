@@ -1,13 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom';
+import AdminHomepage from './admins/homepage';
+import UserHomepage from './users/homepage';
+import AuthHomepage from './auth/homepage';
+
+const router = createBrowserRouter([
+  {
+    path: "/admin",
+    element: <AdminHomepage />,
+  },
+  {
+    path: "/user",
+    element: <UserHomepage />,
+  },
+  {
+    path: "/auth",
+    element: <AuthHomepage />,
+  },
+  {
+    path: "/",
+    element: <Navigate to="/auth" />,
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
